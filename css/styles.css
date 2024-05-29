@@ -1,0 +1,58 @@
+html {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    font-family: "Amatic SC", sans-serif;
+    font-size: 12px;
+}
+
+/*HEADER*/
+header {
+    background-image: url("../assets/watercolor.webp");
+    display: flex;
+}
+
+.logo {
+    width: 20%;
+}
+
+.navBar {
+    display: flex;
+    font-size: 2.5em;
+
+}
+
+.menuList {
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+/*MAIN*/
+main {
+    height: 80vh;
+    background-image: url('../assets/paoMarBN.jpg');
+    background-size: 100%;
+}
+
+/*GALERIA*/
+.marcoCarousel {
+    padding: 50px;
+    display: flex;
+}
+.contenedorCarousel {
+    width: 50%;
+    height: 30%;
+    padding: 50px;
+}
+.itemFoto {
+    width: 50%;
+    height: 50%;
+}
